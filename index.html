@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Training</title>
+        <link rel="icon" href="images/page_icon.png" type="image/gif" sizes="16x16">
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        
+        </script>
+        
+    </head>
+    <body onload="fetchlocal()" class="container">
+        <div>
+                <form onsubmit="onsubmitdetails();">
+                    <h2>Hey there! Input Your Details</h2>
+                    <div>
+                        <div class="nonimage">
+                            <div class="form-group">
+                                    
+                                <label class="l_name">Name:</label><input type="text" id="name" class="form-control" placeholder="eg:Vishwas yadav" required>
+                                
+                        </div>
+                        
+                        <div class="form-group">
+                                
+                                <label class="l_add">Address:</label><input type="text" id="address" class="form-control" placeholder="eg:144,sector 20,xyz" required>
+                                
+                        </div>
+                        <div class="form-group">
+                                
+                                <label class="l_tel">Phone no:</label><input type="tel" id="phno" class="form-control" placeholder="eg:9191919191" required>
+                               
+                                
+                        </div>
+                        
+                        <div class="form-group">
+                                
+                                <label class="l_email">Email:</label><input type="email" id="email" class="form-control" placeholder="eg:vish123@gmail.com" required>
+                               
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="uploadimage">
+                        <label class="profilepictxt">Profile Picture</label>
+                        <div class="withimage">
+                            <img src="" alt="unable to load image" id="profile_pic_uploaded" height="100%" width="100%">
+
+                        </div>
+                        <input type="file" class="choosefile"  onchange="displaypic.call(this)" required>
+                       
+                    </div>
+                    
+                   
+                    </div>
+                        
+                <div class="subres">
+                    
+                    <input type="submit" class="submit_button btn btn-success" >
+                    <input type="reset" class="reset_buttton btn btn-warning">
+                </div>
+                       
+                        
+                    </form>
+            
+        </div>
+        <div class="table-responsive">
+            <table id="infotable" class="table-hover">
+                <tr>
+                        
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone no</th>
+                        <th>Email</th>
+						<th>Photo</th>
+                        <th></th>
+                        <th></th>
+                </tr>
+                
+               
+            </table>
+        </div>
+        <script src="JS/custom.js"></script>
+    </body>
+</html>

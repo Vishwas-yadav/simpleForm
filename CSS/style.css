@@ -1,0 +1,107 @@
+body{
+   
+    padding: 30px;
+    
+}
+h2{
+    color:black;
+}
+/* }
+.submit_button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.reset_button{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    
+} */
+
+
+form{
+    border: 1px solid black;
+    text-align: center;
+ 
+
+
+}
+
+tr{
+    color:black;
+}
+th,td{
+    padding: 40px;
+}
+table{
+    margin-top: 50px;
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+.l_add{
+    color:black;
+    
+    
+}
+.l_name{
+    color:black;
+    
+    
+}
+.l_tel{
+    color:black;
+    
+}
+.l_email{
+    color:black;
+   
+}
+.btndelete{
+color:black;
+background: red;
+}
+.btnedit{
+color: black;
+background: grey
+}
+.withimage
+{
+    border: 1px solid black;
+    width: 120px;
+    height: 150px;
+    margin-left: 40%;
+
+}
+.nonimage{
+
+width: 45%;
+margin-left: 2%;
+float: left;
+margin-top: 10px;
+/* margin-left: 10px; */
+
+}
+.uploadimage{
+    width: 50%;
+    float: left;
+    
+    margin-top: 10px;
+}
+.subres{
+    width: 50%;
+    margin-top: 200px;
+   
+    margin-bottom: 10px;
+    
+}
+.profilepictxt{
+    color:black;
+}
+.choosefile{
+    color:black;
+    margin-left: 42%;
+    margin-top: 5px;
+}
+#profile_pic_uploaded{
+    display: none;
+}
